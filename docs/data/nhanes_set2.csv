@@ -1,0 +1,4 @@
+"SEQN","Age","Gender","Ethnicity","Citizenship","Education","Marital_status","Household_size","Annual_income","Sedentary_min","Height","Weight","Health_insurance","Private_insurance","Cancer","Heart_attack","Stroke","Inc_exercise","Dec_salt","Dec_fat","LDL_Cholesterol","Triglyceride"
+93823,58,2," Other Hispanic","Citizen by birth or naturalization","College graduate or above","Married",2,"Under $20000",180,64,170,"No",NA,"No","No","No","Yes","No","Yes",156,128
+93830,67,1,"non-Hispanic black","Citizen by birth or naturalization","Some college or AA degree","Married",2,"$75000 to $99999",360,75,252,"Yes",NA,"No","No","Yes","Yes","Yes","Yes",81,55
+93840,47,1,"non-Hispanic Asian","Citizen by birth or naturalization","College graduate or above","Married",3,"$100000 and Over",600,70,172,"Yes","Yes","No","No","No","Yes","No","No",104,52
