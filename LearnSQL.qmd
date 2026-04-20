@@ -1,0 +1,663 @@
+---
+title: "SQL Tutorial"
+author: "Amanda Ng"
+
+format:
+  live-html:
+    toc: true
+    number-sections: false
+  
+engine: knitr
+
+resources:
+  - data
+
+
+webr:
+  packages:
+    - tidyverse
+    - DBI
+    - duckdb
+
+live:
+  show-hints: true
+  show-solutions: true
+---
+
+{{< include ./_extensions/r-wasm/live/_knitr.qmd >}}
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE) 
+library(DBI) 
+library(duckdb) 
+library(tidyverse) 
+# 1. Read your CSV 
+mydata <- read.csv("data/nhanes.csv") 
+nhanes_demographics <- read.csv("data/nhanes_demographics.csv") 
+nhanes_health <- read.csv("data/nhanes_health.csv") 
+nhanes_set1<- read.csv("data/nhanes_set1.csv") 
+nhanes_set2<- read.csv("data/nhanes_set2.csv") 
+
+# 2. Create an in-memory SQLite database 
+con <- dbConnect(duckdb::duckdb(), dbdir = ":memory:")
+
+# 3. Write the CSV into a SQL table 
+dbWriteTable(con, "nhanes", mydata) 
+dbWriteTable(con, "nhanes_demographics", nhanes_demographics) 
+dbWriteTable(con, "nhanes_health", nhanes_health) 
+dbWriteTable(con, "nhanes_set1", nhanes_set1)
+dbWriteTable(con, "nhanes_set2", nhanes_set2)
+```
+
+## Basic query
+
+### SELECT, FROM, LIMIT
+
+A typical starting structure when using SQL is `SELECT variable FROM table`. This query will give a table showing only the selected variables from the table. To select multiple variables, we can use a comma `,` to separate them. The shortcut for showing all variables is `*`.
+
+To avoid overwhelming the reader, we can limit the output table to show only the top observations using `LIMIT` after the `FROM` clause. For example:
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT Age, Education, Triglyceride
+FROM nhanes
+LIMIT 5
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  select(Age, Education, Triglyceride)%>%
+  head(5)
+```
+:::
+
+We can also specify to show only distinct rows with `DISTINCT` in the `SELECT` rows. However, you are only allowed to distinct on a single variable or `DISTINCT *`, such as
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT DISTINCT Age
+FROM nhanes
+LIMIT 10;
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  select(Age)%>%
+  head(10)%>%
+  distinct()
+```
+:::
+
+To show distinct rows across multiple selected variables, we need to perform a `GROUP BY`, which will be introduced later.
+
+### Create new variables with SELECT, AS
+
+We can also rename the variable name using `AS`, such as
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT Age, Education AS Edu, Triglyceride
+FROM nhanes
+LIMIT 5
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  select(Age, Edu = Education, Triglyceride) %>%
+  head(5)
+```
+:::
+
+To define new variables, we also do it within the `SELECT` clause such as
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT Age, Age + 10 AS age_10_years_later
+FROM nhanes
+LIMIT 5
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  mutate(age_10_years_later = Age + 10)%>%
+  select(Age, age_10_years_later)%>%
+  head(5)
+```
+:::
+
+We can also define a constant variable across rows.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT 2026 AS constant_year
+FROM nhanes
+LIMIT 5
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  mutate(constant_year = 2026)%>% 
+  select(constant_year)%>%
+  head(5)
+```
+:::
+
+We can also concatenate strings using `||`.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT Ethnicity||Marital_status AS combined_e_m
+FROM nhanes
+LIMIT 5
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  mutate(combined_e_m = str_c(Ethnicity, Marital_status))%>% 
+  select(combined_e_m)%>%
+  head(5)
+```
+:::
+
+### Conditional assignments with CASE WHEN
+
+To assign value to a new variable based on some conditions, we use `CASE WHEN... THEN... ELSE...END`.
+
+In this assignment, we transformed the coded `Gender` column into the text form column `Gender_name` where we assign the value `Male` when it is coded as 1, `Female` when it is coded as 2, and `Unknown` otherwise.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT Gender,
+      CASE WHEN Gender = 1 THEN 'Male'
+          WHEN Gender = 2 THEN 'Female'
+            ELSE 'Unknown'
+        END AS Gender_name      
+FROM nhanes
+LIMIT 10
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  mutate(Gender_name = case_when(Gender == 1 ~ 'Male', 
+                                 Gender == 2 ~ 'Female',
+                                 TRUE ~ 'Unknown'))%>% 
+  select(Gender, Gender_name)%>%
+  head(10)
+```
+:::
+
+### Filtering rows with WHERE
+
+Similar to `dplyr` in R, we can also filter to restrict our output to only show observations that satisfy certain conditions using `WHERE` clause. Note that the `WHERE` clause always comes after `FROM`. To build condition statements, we can use
+
+-   Logical operators: `=`, `<`, `>`, `<=`, `>=`, and `!=`.
+-   Boolean operators: `AND`, `OR`, and `NOT`
+
+In this example, we show the top 5 observations with age greater than 20.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT *
+FROM nhanes
+WHERE Age > 20
+LIMIT 5
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  filter(Age > 20)%>%
+  head(5)
+```
+:::
+
+SQL provides the `LIKE` operator to compare a string to a pattern. The pattern is a quoted string and can include these special characters:
+
+-   `_` matches any single character
+-   `%` matches any sequence of zero or more characters
+
+This outputs all distinct `Ethnicity` which contains `Hispanic` in the entry.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT DISTINCT Ethnicity
+FROM nhanes
+WHERE Ethnicity LIKE '%Hispanic%'
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  filter(str_like(Ethnicity, '%Hispanic%'))%>%
+  select(Ethnicity)%>%
+  distinct()
+```
+:::
+
+### ORDER BY
+
+Using `ORDER BY`, we can order the rows in the table based on column(s) of your choice. By default, it orders the row in ascending order (`ASC`). If you want to show the row corresponding to the larger values as the top row, put `DESC` after your column name.
+
+This outputs the top 5 distinct `Age` in descending order, the first row corresponds to the observation with largest age in the dataset.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT DISTINCT Age
+FROM nhanes
+ORDER BY Age DESC
+LIMIT 5
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  select(Age)%>%
+  arrange(desc(Age))%>%
+  distinct()%>%
+  head(5)
+```
+:::
+
+## Grouping and Aggregation
+
+Sometimes, we are interested in the group level statistical summaries. We can use `GROUP BY` and aggregation functions to so do.
+
+Here are some common aggregation functions in SQL:
+
+-   `AVG()`
+-   `MAX()`
+-   `MIN()`
+-   `COUNT()`
+-   `SUM()`
+
+Tips:
+
+-   use `COUNT(*)` is you want to summarize number of rows in the table
+-   use `COUNT(DISTINCT variable)` is you want to summarize number of distinct values in a variable
+
+For example, this shows the mean age for each education groups.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT Education, AVG(Age) AS avg_age
+FROM nhanes
+GROUP BY Education
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  group_by(Education)%>%
+  summarize(avg_age = mean(Age))
+```
+:::
+
+Note that, when we use `GROUP BY`, we must include the grouping column in the `SELECT` clause. Any columns storing individual-level values should not be included in `SELECT` after grouping since we are collapsing the dataset into group level observations. In other words, you can only include the grouping column and aggregated measures applied on the grouping column.
+
+You can also group by more than one column, such as:
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT Education, Gender, AVG(Age) AS avg_age
+FROM nhanes
+GROUP BY Education, Gender
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  group_by(Education, Gender) %>%
+  summarise(avg_age = mean(Age, na.rm = TRUE))
+```
+:::
+
+When we use `GROUP BY`, we are defining the units of aggregation. A common misconception is that grouping by multiple columns creates separate groups for each column independently. In reality, grouping uses the **combination** of the columns to define each group. In this example,
+
+- Grouping by one column (e.g., `Education`) creates one group for each unique Education level.
+- Grouping by two columns (e.g., `Education` and `Gender`) creates one group for each **unique pair** of values.
+
+As a result, the same Education level can appear in multiple rows because each row represents a different combination with the second grouping variable. For example:
+
+- `Some college or AA degree` + `1`
+- `Some college or AA degree` + `2`
+
+both belong to the same `Education` category, but they are different groups because the `Gender` value changes.
+
+## Filter groups with HAVING
+
+Similar to `WHERE`, `HAVING` allows us to filter rows in the table after the `GROUP BY` clause. Using `WHERE` after `GROUP BY` is invalid.
+
+For instance, we only want the average age of observations with `College graduate or above` education.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT Education, AVG(Age) AS avg_age
+FROM nhanes
+GROUP BY Education
+HAVING Education = 'College graduate or above'
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  group_by(Education)%>%
+  filter(Education == 'College graduate or above')%>%
+  summarize(avg_age = mean(Age))
+```
+:::
+
+If you want to filter rows such that the variable value is in a list of values, we can use `IN` and `(your_list_of_values)`.
+
+For instance, we only want to calculate the average ages of observations with `College graduate or above`, `Some college or AA degree`, and `9-11th grade` respectively.
+
+
+::: {.panel-tabset}
+# SQL
+```{sql,connection=con}
+SELECT Education, AVG(Age) AS avg_age
+FROM nhanes
+GROUP BY Education
+HAVING Education IN ('College graduate or above', 'Some college or AA degree', '9-11th grade')
+```
+
+# R
+
+```{r}
+#| edit: false
+mydata %>%
+  group_by(Education) %>%
+  summarise(avg_age = mean(Age, na.rm = TRUE)) %>%
+  filter(Education %in% c(
+    "College graduate or above",
+    "Some college or AA degree",
+    "9-11th grade"
+  ))
+```
+:::
+
+## Set operations on row level
+
+SQL provides several set operations that allow you to combine results of two queries (or two datasets) on row level.
+
+Note that an operand to a set operator must be a complete query. For instance, if we wanted to conduct `SET_OPERATION` on tables `nhanes_set1` and `nhanes_set2`, we couldn’t just write `(nhanes_set1) SET_OPERATION (nhanes_set2)`.
+
+### UNION
+
+`UNION` returns all rows that appear in either of the two result sets. In the example below, we have `nhanes_set1` containing information from participants with ID 93731, 93801,and 93823; and `nhanes_set2` containing information from participant with ID 93823, 93830, and 93840. The result outputs 5 rows in total. Notice that participant 93823 appears twice since it exists on both `nhanes_set1` and `nhanes_set2`. `UNION` automatically eliminates duplicates.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT *
+FROM nhanes_set1
+UNION 
+SELECT * 
+FROM nhanes_set2
+```
+
+# R
+
+```{r}
+#| edit: false
+union(nhanes_set1, nhanes_set2)
+```
+:::
+
+To keep the duplicates, we can use `UNION ALL`. The result outputs 6 rows in total.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT *
+FROM nhanes_set1
+UNION ALL 
+SELECT * 
+FROM nhanes_set2
+```
+
+# R
+
+```{r}
+#| edit: false
+bind_rows(nhanes_set1, nhanes_set2)
+```
+:::
+
+### INTERSECTION
+
+`INTERSECT` returns the rows that appear in both sets. Using the same `nhanes_set1` and `nhanes_set2`, the result only outputs the row corresponding to participant 93823.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT *
+FROM nhanes_set1
+INTERSECT 
+SELECT * 
+FROM nhanes_set2
+```
+
+# R
+
+```{r}
+#| edit: false
+intersect(nhanes_set1, nhanes_set2)
+```
+:::
+
+### EXCEPT
+
+`EXCEPT` returns rows from the first set (the one on the `FROM` query) that do not appear in the second.
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT *
+FROM nhanes_set1
+EXCEPT 
+SELECT * 
+FROM nhanes_set2
+```
+
+# R
+
+```{r}
+#| edit: false
+setdiff(nhanes_set1, nhanes_set2)
+```
+:::
+
+Note that `EXCEPT` removes all occurrences of duplicate data from the first set.
+
+If you wish to removes one occurrence of duplicate data from the first set for every occurrence in the second set, use `EXCEPT ALL`.
+
+## Merging datasets on column level
+
+We can merge datasets using `JOIN` if they share common columns. The general syntax is `A JOIN_TYPE B`, where `JOIN_TYPE` depends on the join operation we want to perform. This syntax would perform the join based on all shared attributes (columns) between A and B. If the shared attributes you wish to merge on are named differently in A and B, we can use `ON` to specify the condition. For instance, `A JOIN_TYPE B ON A.colname1 = B.colname2` will join rows from A and B by matching values between `colname1` from A and `colname2` from B.
+
+In this section, we will use the following datasets.
+
+`nhanes_demographics` includes ID, Age, Gender and Education level of 5 patients.
+
+```{sql,connection=con}
+SELECT *
+FROM nhanes_demographics
+```
+
+`nhanes_health` includes ID, Heart attack status, and Stroke Status of 6 patients.
+
+```{sql,connection=con}
+SELECT *
+FROM nhanes_health
+```
+
+Note that ID 93731, 93840, and 93920 appear on both table. ID 93972 and 94069 only appear in `nhanes_demographics` and ID 102838, 102880, and 102947 only appear in `nhanes_health`.
+
+Suppose we are only interested in patients' age and their stroke status, there are 4 main types of joins:
+
+### Inner Join
+
+An inner natural join:
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT SEQN, Age, Stroke
+FROM nhanes_demographics
+NATURAL JOIN nhanes_health
+```
+
+# R
+
+```{r}
+#| edit: false
+nhanes_demographics %>%
+  inner_join(nhanes_health, by = "SEQN") %>%
+  select(SEQN, Age, Stroke)
+```
+:::
+
+will include only IDs that are in the intersection of `nhanes_demographics` and `nhanes_health`.
+
+### Outer Join
+
+A full outer join:
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT SEQN, Age, Stroke
+FROM nhanes_demographics
+NATURAL FULL JOIN nhanes_health
+```
+
+# R
+
+```{r}
+#| edit: false
+nhanes_demographics %>%
+  full_join(nhanes_health, by = "SEQN") %>%
+  select(SEQN, Age, Stroke)
+```
+:::
+
+will include all IDs that are in either `nhanes_demographics` or `nhanes_health`. For patients that appear in `nhanes_demographics`, but not in `nhanes_health` (i.e., 93972 and 94069), null values will be inserted to `Stroke` (column in `nhanes_health`). Similarly, For patients that appear in `nhanes_health`, but not in `nhanes_demographics` (i.e., 102838, 102880, and 102947), null values will be inserted to `Age` (column in `nhanes_demographics`).
+
+### Left outer join
+
+A left outer join:
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT SEQN, Age, Stroke
+FROM nhanes_demographics
+NATURAL LEFT JOIN nhanes_health
+```
+
+# R
+
+```{r}
+#| edit: false
+nhanes_demographics %>%
+  left_join(nhanes_health, by = "SEQN") %>%
+  select(SEQN, Age, Stroke)
+```
+:::
+
+will include all IDs that are in the intersection (i.e., 93731, 93840, and 93920) plus those that are in `nhanes_demographics` only (i.e., 93972 and 94069) with null values inserted to `Stroke` (column in `nhanes_health`).
+
+### Right outer join
+
+A right outer join:
+
+::: {.panel-tabset}
+# SQL
+
+```{sql,connection=con}
+SELECT SEQN, Age, Stroke
+FROM nhanes_demographics
+NATURAL RIGHT JOIN nhanes_health
+```
+
+# R
+
+```{r}
+#| edit: false
+nhanes_demographics %>%
+  right_join(nhanes_health, by = "SEQN")%>%
+  select(SEQN, Age, Stroke)
+```
+:::
+
+will include all IDs that are in the intersection (i.e., 93731, 93840, and 93920) plus those that are in `nhanes_health` only (i.e., 102838, 102880, and 102947) with null values inserted to `Age` (column in `nhanes_demographics`).
+
+## Return to Learning Hub Homepage
+
+[Learning Hub Homepage](https://uoft-hmb-coding.github.io){.btn .btn-primary}

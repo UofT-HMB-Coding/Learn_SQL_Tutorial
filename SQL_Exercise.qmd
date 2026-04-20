@@ -1,0 +1,229 @@
+---
+title: "Exercises"
+format: 
+  html:
+    css: [webex.css]
+    include-after-body: [webex.js]
+    embed-resources: true 
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+library(webexercises)
+```
+
+# Q1
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "It removes duplicate rows from a table",
+  "It limits the number of rows returned by a query",
+  answer = "It specifies the maximum number of rows to display in the output",
+  "It sorts the rows in descending order"
+)
+
+cat("Q1. What does the SQL clause `LIMIT` do?", longmcq(opts))
+
+```
+
+:::
+
+# Q2
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "It filters rows based on a condition",
+  answer = "It removes duplicate values from the selected column(s)",
+  "It groups rows into categories",
+  "It orders rows alphabetically"
+)
+
+cat("What is the purpose of `SELECT DISTINCT`?", longmcq(opts))
+
+```
+
+:::
+
+# Q3
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "To rename a column",
+  "To join two tables",
+  answer = "To assign values conditionally within a SELECT statement",
+  "To remove missing values"
+)
+
+cat("What does the SQL `CASE WHEN` structure allow you to do?", longmcq(opts))
+
+```
+
+:::
+
+# Q4
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "`WHERE` filters groups after aggregation",
+  answer = "`HAVING` filters groups after aggregation",
+  "`WHERE` and `HAVING` are interchangeable",
+  "`HAVING` must appear before `GROUP BY`"
+)
+
+cat("Which statement about `HAVING` is correct?", longmcq(opts))
+
+```
+
+:::
+
+# Q5
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "`LEFT JOIN`",
+  answer = "`INNER JOIN`",
+  "`FULL OUTER JOIN`",
+  "`RIGHT JOIN`"
+)
+
+cat("Which join returns only rows that appear in both tables?", longmcq(opts))
+
+```
+
+:::
+
+# Q6
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  answer = "`WHERE` cannot appear after `GROUP BY`; it must appear before grouping.",
+  "`WHERE` must always be used with `DISTINCT`.",
+  "`WHERE` can only filter numeric columns.",
+  "`WHERE` must be the last clause in a query."
+)
+
+cat("Why is the following SQL query invalid?\n\n`SELECT Education, AVG(Age) FROM nhanes GROUP BY Education WHERE Age > 30;`\n", 
+    longmcq(opts))
+
+```
+
+:::
+
+# Q7
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "`DISTINCT` can only be used with numeric columns.",
+  answer = "`DISTINCT` applies to the entire selected set of columns, so `DISTINCT Age, Education` is valid but `DISTINCT Age, AVG(Age)` is not.",
+  "`DISTINCT` must always be paired with `GROUP BY`.",
+  "`DISTINCT` removes NULL values."
+)
+
+cat("Which statement correctly explains why the query `SELECT DISTINCT Age, AVG(Age)` \n ` FROM nhanes;` is invalid?", 
+    longmcq(opts))
+
+```
+
+:::
+
+# Q8
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "`NATURAL JOIN` requires specifying the join key explicitly.",
+  answer = "`NATURAL JOIN` automatically joins on all shared column names, so using `ON` is not allowed.",
+  "`NATURAL JOIN` can only be used with numeric keys.",
+  "`NATURAL JOIN` always produces duplicate rows."
+)
+
+cat("Why is the following query invalid?\n\n`SELECT * FROM nhanes_demographics` \n `NATURAL JOIN nhanes_health ON nhanes_demographics.SEQN = nhanes_health.SEQN;`\n", 
+    longmcq(opts))
+
+```
+
+:::
+
+# Q9
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "Aliases cannot be used in `SELECT` statements.",
+  answer = "The alias `avg_age` is defined in `SELECT`, so it *can* be used in `ORDER BY`, the error must be elsewhere.",
+  "`ORDER BY` must always reference the original column name.",
+  "`ORDER BY` cannot be used with aggregated values."
+)
+
+cat("A student claims this query is invalid:\n\n`SELECT Education, AVG(Age) AS avg_age`\n\n`FROM nhanes` \n\n`GROUP BY Education ` \n\n`ORDER BY avg_age DESC;`\n\nWhich explanation is correct?", 
+    longmcq(opts))
+
+```
+
+:::
+
+# Q10
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "`UNION` can only combine tables with the same number of rows.",
+  answer = "`UNION` requires both queries to return the same number of columns in the same order.",
+  "`UNION` cannot be used with `SELECT *`.",
+  "`UNION` always preserves duplicates."
+)
+
+cat("Why is the following query invalid?\n\n`SELECT SEQN, Age FROM nhanes_set1 `\n\n`UNION `\n\n`SELECT SEQN FROM nhanes_set2;`\n", 
+    longmcq(opts))
+
+```
+
+:::
+
+# Q11
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "`LIKE` cannot be used with text columns.",
+  "`LIKE` only works with numeric values.",
+  answer = "The pattern must be a string literal, so `%Hispanic%` must be quoted.",
+  "`LIKE` must always be paired with `DISTINCT`."
+)
+
+cat("Why is this query invalid?\n\n`SELECT * FROM nhanes WHERE Ethnicity LIKE %Hispanic%;`\n", 
+    longmcq(opts))
+
+```
+
+:::
+
+# Q12
+::: {.webex-check .webex-box}
+
+```{r, results='asis'}
+opts <- c(
+  "`AVG()` cannot be used with numeric columns.",
+  answer = "All non‑aggregated columns in `SELECT` must appear in `GROUP BY`.",
+  "`GROUP BY` must always include all columns in the table.",
+  "Aggregations must appear before `SELECT`."
+)
+
+cat("Why is this query invalid?\n\n`SELECT Education, Age, AVG(Triglyceride) FROM nhanes GROUP BY Education;`\n", 
+    longmcq(opts))
+
+```
+
+:::
+
+# Return to Learning Hub Homepage
+
+[Learning Hub Homepage](https://uoft-hmb-coding.github.io){.btn .btn-primary}

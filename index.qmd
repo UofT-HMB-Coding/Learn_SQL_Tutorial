@@ -1,0 +1,9 @@
+---
+title: "SQL Tutorial"
+---
+
+Welcome to the SQL tutorial website!
+
+SQL is short for “Structured Query Language”. It allows user to define database schemas and execute our queries in a database. Here, you’ll find practical, beginner‑friendly guides to essential queries to extract information and modify database, such as creating new variables, aggregating rows to obtain group level summaries, performing joins, etc. To support learners coming from different backgrounds, queries are shown in both SQL and R. Whether you're just starting your data journey or expanding your analytical toolkit, I hope these resources make learning SQL both accessible and enjoyable.
+
+[Return to Learning Hub Homepage](https://uoft-hmb-coding.github.io){.btn .btn-primary}
