@@ -1,0 +1,501 @@
+SEQN,Age,Gender,Ethnicity,Citizenship,Education,Marital_status,Household_size,Annual_income,Sedentary_min,Height,Weight,Health_insurance,Private_insurance,Cancer,Heart_attack,Stroke,Inc_exercise,Dec_salt,Dec_fat,LDL_Cholesterol,Triglyceride
+93731,20,1,Mexican American,Citizen by birth or naturalization,Some college or AA degree,Never married,5,$100000 and Over,360,73,202,Yes,Yes,No,No,No,No,No,Yes,97,78
+93801,59,1, Other Hispanic,Citizen by birth or naturalization,College graduate or above,Married,2,$100000 and Over,600,71,175,Yes,NA,No,No,No,No,Yes,Yes,94,136
+93823,58,2, Other Hispanic,Citizen by birth or naturalization,College graduate or above,Married,2,Under $20000,180,64,170,No,NA,No,No,No,Yes,No,Yes,156,128
+93830,67,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,$75000 to $99999,360,75,252,Yes,NA,No,No,Yes,Yes,Yes,Yes,81,55
+93840,47,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,$100000 and Over,600,70,172,Yes,Yes,No,No,No,Yes,No,No,104,52
+93884,19,1,non-Hispanic white,Citizen by birth or naturalization,NA,NA,5,NA,600,69,140,Yes,Yes,NA,NA,NA,Yes,No,Yes,94,72
+93887,63,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,1,$15000 to $19999,9999,70,170,Yes,NA,No,Yes,Yes,No,No,No,95,102
+93891,56,2,Mexican American,Not a citizen of the US,High school graduate/GED or equivalent,Married,7,NA,120,NA,180,No,NA,No,No,No,Yes,Yes,Yes,117,166
+93920,61,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,2,$100000 and Over,540,61,110,Yes,Yes,No,No,No,Yes,Yes,Yes,108,83
+93969,33,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Separated,4,$15000 to $19999,300,64,135,No,NA,No,No,No,No,No,No,118,58
+93972,35,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,3,$75000 to $99999,480,74,220,Yes,Yes,No,No,No,No,No,Yes,75,56
+93981,52,2,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,3,NA,240,63,160,Don't Know,NA,No,No,No,Yes,No,No,171,129
+93998,24,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,4,$45000 to $54999,120,62,115,Yes,NA,No,No,No,No,No,No,66,64
+94013,56,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Never married,3,$75000 to $99999,60,70,145,No,NA,No,No,No,No,No,No,119,98
+94042,26,1,other non-Hispanic races,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,3,$20000 to $24999,180,69,170,No,NA,No,No,No,Yes,No,No,107,105
+94064,17,1,Mexican American,Citizen by birth or naturalization,NA,NA,7,$15000 to $19999,NA,70,269,Yes,NA,NA,NA,NA,Yes,No,No,88,83
+94069,61,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,3,$55000 to $64999,240,72,240,Yes,Yes,No,Yes,No,No,Yes,Yes,166,155
+94101,64,2,non-Hispanic Asian,Citizen by birth or naturalization,Some college or AA degree,Married,2,$75000 to $99999,240,62,168,Yes,Yes,Yes,No,No,Yes,No,Yes,94,137
+94105,46,2,Mexican American,Citizen by birth or naturalization,Some college or AA degree,Married,5,$100000 and Over,720,64,161,Yes,Yes,No,No,No,Yes,No,No,123,82
+94130,27,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,5,NA,720,65,150,No,NA,No,No,No,No,Yes,Yes,89,41
+94189,21,2,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,4,$35000 to $44999,120,63,180,No,NA,No,No,No,Yes,Yes,Yes,75,28
+94192,54,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$100000 and Over,240,61,214,Yes,Yes,No,No,No,No,Yes,No,78,152
+94208,45,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Never married,3,$75000 to $99999,720,61,270,No,NA,Yes,No,No,Yes,Yes,Yes,83,55
+94210,80,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Divorced,1,$10000 to $14999,300,73,180,Yes,NA,No,No,No,Yes,Yes,Yes,126,88
+94229,69,2,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Married,2,NA,300,60,200,Yes,NA,No,No,No,No,Yes,Yes,102,175
+94247,27,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$35000 to $44999,480,69,305,No,NA,No,No,No,Yes,Yes,Yes,84,85
+94267,80,2,non-Hispanic Asian,Citizen by birth or naturalization,Some college or AA degree,Married,4,$100000 and Over,120,61,127,Yes,NA,No,No,No,No,Yes,Yes,88,68
+94341,24,1,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,5,$45000 to $54999,420,70,220,Yes,Yes,No,No,No,Yes,Yes,Yes,145,105
+94393,36,1, Other Hispanic,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,6,Under $20000,60,66,180,Yes,Yes,No,No,No,Yes,No,No,233,162
+94408,72,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$35000 to $44999,240,68,130,Yes,Yes,Yes,No,No,No,No,No,85,50
+94410,80,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Widowed,1,Under $20000,480,63,156,Yes,NA,No,No,No,No,Yes,Yes,108,49
+94421,75,2,non-Hispanic Asian,Not a citizen of the US,High school graduate/GED or equivalent,Separated,6,$100000 and Over,60,56,115,Yes,NA,No,No,No,Yes,Yes,No,74,101
+94431,47,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,5,$75000 to $99999,600,70,360,Yes,Yes,No,No,No,Yes,Yes,Yes,64,182
+94469,37,2,other non-Hispanic races,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,180,65,220,Yes,Yes,No,No,No,Yes,Yes,Yes,110,53
+94490,64,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,2,$25000 to $34999,120,61,130,Yes,NA,No,No,No,Yes,Yes,Yes,148,99
+94522,60,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,2,$15000 to $19999,480,70,219,Yes,NA,No,No,No,Yes,Yes,Yes,152,56
+94542,30,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,5,$100000 and Over,720,67,145,Yes,Yes,No,No,No,No,Yes,Yes,43,22
+94571,80,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$55000 to $64999,180,67,153,Yes,Yes,No,No,No,No,No,No,130,118
+94574,18,1,non-Hispanic black,Citizen by birth or naturalization,NA,NA,7,$75000 to $99999,600,75,320,Yes,Yes,NA,NA,NA,Yes,Yes,Yes,70,73
+94579,52,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,1,$5000 to $9999,60,68,185,Yes,NA,No,No,No,Yes,Yes,Yes,139,76
+94619,61,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Married,7,$100000 and Over,9999,69,180,Yes,Yes,No,No,No,No,Yes,Yes,143,91
+94640,55,2,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,4,$100000 and Over,600,62,155,Yes,Yes,No,No,No,Yes,Yes,Yes,87,267
+94652,74,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,2,$45000 to $54999,120,56,122,Yes,NA,Yes,No,No,No,No,No,89,79
+94654,61,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,2,$65000 to $74999,180,64,159,Yes,Yes,Yes,No,No,Yes,Yes,Yes,93,98
+94695,56,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,5,$100000 and Over,180,65,105,Yes,Yes,No,No,No,No,No,No,186,189
+94708,41,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,3,$100000 and Over,360,72,223,Yes,Yes,No,No,No,No,No,No,153,62
+94775,26,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,5,$25000 to $34999,1020,63,180,No,NA,No,No,No,No,No,No,102,51
+94779,80,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$45000 to $54999,300,69,195,Yes,Yes,No,No,No,No,Yes,Yes,75,142
+94788,53,2,non-Hispanic Asian,Citizen by birth or naturalization,Some college or AA degree,Married,3,$100000 and Over,210,63,119,Yes,Yes,No,No,No,No,Yes,Yes,110,62
+94835,59,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,1,$5000 to $9999,720,64,175,Yes,NA,No,No,No,Yes,Yes,Yes,136,114
+94844,36,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,480,70,190,Yes,Yes,No,No,No,Yes,Yes,Yes,119,110
+94856,77,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,1,$20000 and Over,360,63,129,Yes,Yes,No,No,No,No,No,No,127,55
+94882,55,2,non-Hispanic Asian,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,5,$55000 to $64999,15,62,140,Yes,Yes,No,No,No,No,Yes,Yes,83,26
+94885,64,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,4,$65000 to $74999,300,72,275,Yes,NA,No,No,No,Yes,Yes,Yes,87,149
+94894,50,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,3,$100000 and Over,600,71,278,Yes,Yes,No,No,No,Yes,No,Yes,80,53
+94902,67,2,non-Hispanic Asian,Citizen by birth or naturalization,Less than 9th grade,Married,2,$65000 to $74999,120,60,110,Yes,NA,No,No,No,Yes,Yes,Yes,62,166
+94918,71,1, Other Hispanic,Citizen by birth or naturalization,High school graduate/GED or equivalent,Separated,1,$5000 to $9999,180,72,238,Yes,Yes,No,No,No,Yes,No,No,96,130
+94946,23,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Living with partner,4,$25000 to $34999,300,76,298,No,NA,No,No,No,Yes,No,No,98,204
+94984,62,1, Other Hispanic,Not a citizen of the US,Less than 9th grade,Married,4,$65000 to $74999,120,62,130,Yes,Yes,Yes,No,No,Yes,Yes,Yes,NA,NA
+94993,80,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,1,$5000 to $9999,600,60,117,Yes,Yes,Yes,No,No,Yes,Yes,Yes,137,56
+95001,80,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Widowed,2,$20000 to $24999,600,63,166,Yes,Yes,No,No,No,No,Yes,No,73,121
+95004,80,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,1,$100000 and Over,720,78,209,Yes,Yes,No,No,No,Yes,No,No,85,61
+95031,54,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$75000 to $99999,240,66,270,Yes,Yes,No,No,No,No,No,No,70,224
+95051,52,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Divorced,2,$55000 to $64999,720,74,340,No,NA,No,No,No,No,No,No,145,192
+95056,34,2,other non-Hispanic races,Citizen by birth or naturalization,Some college or AA degree,Married,4,$20000 and Over,120,68,235,No,NA,No,No,No,Yes,Yes,No,146,63
+95068,80,2,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Widowed,1,$35000 to $44999,600,62,144,Yes,Yes,Yes,Yes,No,No,Yes,Yes,56,143
+95101,80,2,non-Hispanic white,Citizen by birth or naturalization,Less than 9th grade,Married,3,$10000 to $14999,180,65,177,Yes,NA,No,No,No,No,Yes,Yes,NA,NA
+95152,59,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Widowed,1,$5000 to $9999,240,68,190,Yes,NA,No,No,No,Yes,Yes,Yes,35,33
+95168,59,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,4,$65000 to $74999,180,68,164,Yes,Yes,No,No,No,No,Yes,No,92,154
+95203,54,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Separated,1,$15000 to $19999,240,73,192,Yes,NA,No,No,No,Yes,Yes,Yes,181,102
+95210,44,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$100000 and Over,360,69,180,Yes,Yes,No,No,No,No,Yes,Yes,144,67
+95213,25,1,Mexican American,Citizen by birth or naturalization,9-11th grade,Never married,2,$75000 to $99999,300,67,160,Yes,Yes,No,No,No,No,Yes,No,97,41
+95232,23,2,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Living with partner,4,$15000 to $19999,240,59,170,No,NA,No,No,No,Yes,Yes,No,81,39
+95243,68,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Widowed,3,$25000 to $34999,240,60,150,Yes,Yes,Yes,No,No,Yes,Yes,Yes,NA,NA
+95257,39,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,5,$100000 and Over,30,62,145,Yes,Yes,No,No,No,No,Yes,Yes,149,28
+95333,39,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,5,$25000 to $34999,480,66,180,Yes,NA,No,No,No,Yes,Yes,Yes,151,110
+95345,17,2,non-Hispanic black,Citizen by birth or naturalization,NA,NA,4,$20000 to $24999,NA,63,110,Yes,Yes,NA,NA,NA,No,No,No,41,23
+95379,59,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Married,1,Under $20000,30,68,127,Yes,Yes,No,No,No,No,No,No,NA,NA
+95393,28,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Living with partner,2,$100000 and Over,720,61,179,Yes,Yes,No,No,No,Yes,Yes,Yes,192,141
+95411,71,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,$100000 and Over,780,71,369,Yes,Yes,No,No,Yes,Yes,Yes,Yes,56,199
+95469,28,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Never married,1,$25000 to $34999,540,70,137,Yes,Yes,No,No,No,Yes,No,Yes,82,56
+95488,21,2,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Married,5,$55000 to $64999,360,64,225,Yes,NA,No,No,No,Yes,No,No,102,87
+95510,51,2,non-Hispanic Asian,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,3,$75000 to $99999,120,60,132,Yes,Yes,No,No,No,No,Yes,Yes,121,127
+95514,35,1,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,6,$75000 to $99999,240,69,190,Yes,Yes,No,No,No,No,No,No,93,87
+95550,62,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,3,$20000 to $24999,840,71,215,No,NA,No,No,No,No,No,Yes,101,152
+95551,57,2,Mexican American,Not a citizen of the US,Less than 9th grade,Separated,7,NA,120,NA,139,No,NA,No,No,No,No,No,No,146,247
+95568,34,2,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,2,NA,360,66,100,Yes,Yes,No,No,No,Yes,Yes,No,48,61
+95579,54,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Divorced,1,$20000 to $24999,720,71,165,Yes,NA,No,No,No,No,Yes,No,167,55
+95589,63,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,4,$100000 and Over,60,64,152,Yes,Yes,No,No,No,Yes,Yes,Yes,75,69
+95622,42,2,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Married,7,$75000 to $99999,240,65,133,No,NA,No,No,No,Yes,Yes,Yes,109,57
+95672,75,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,$100000 and Over,240,73,230,Yes,NA,Yes,No,Yes,No,Yes,Yes,44,67
+95674,49,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Divorced,3,$100000 and Over,960,74,203,Yes,Yes,No,No,No,Yes,Yes,Yes,90,109
+95686,18,1,non-Hispanic white,Citizen by birth or naturalization,NA,NA,4,$15000 to $19999,300,64,203,Yes,NA,NA,NA,NA,Yes,No,Yes,105,118
+95708,52,1,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Married,2,$100000 and Over,180,74,251,No,NA,No,No,No,No,No,No,181,143
+95723,80,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,1,$20000 to $24999,360,61,145,Yes,Yes,No,No,Yes,No,No,No,72,66
+95741,19,2,non-Hispanic white,Citizen by birth or naturalization,NA,NA,3,$5000 to $9999,240,64,140,Yes,Yes,NA,NA,NA,Yes,No,No,58,43
+95748,43,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,360,72,194,Yes,Yes,No,No,No,Yes,Yes,Yes,195,89
+95771,63,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Married,3,$75000 to $99999,600,64,230,Yes,Yes,No,No,No,Yes,Yes,No,90,130
+95793,26,2,Mexican American,Citizen by birth or naturalization,9-11th grade,Never married,3,$0 to $4999,480,61,96,Yes,NA,No,No,No,Yes,No,No,117,118
+95799,25,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Living with partner,4,$35000 to $44999,420,66,150,Yes,Yes,No,No,No,No,No,No,95,34
+95819,80,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,2,$100000 and Over,600,73,256,Yes,NA,Yes,No,Yes,No,No,No,NA,NA
+95821,16,2,non-Hispanic black,Citizen by birth or naturalization,NA,NA,5,$25000 to $34999,NA,66,131,Yes,Yes,NA,NA,NA,Yes,No,No,131,29
+95828,80,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Divorced,3,$65000 to $74999,300,70,175,Yes,NA,No,No,No,Yes,Yes,No,80,43
+95849,40,2, Other Hispanic,Citizen by birth or naturalization,Some college or AA degree,Living with partner,6,Under $20000,540,66,141,Yes,NA,No,No,No,No,No,No,115,58
+95873,76,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,2,$25000 to $34999,240,66,177,Yes,NA,No,No,No,Yes,No,No,102,142
+95889,17,2,Mexican American,Citizen by birth or naturalization,NA,NA,6,$55000 to $64999,NA,63,121,Yes,NA,NA,NA,NA,No,No,Yes,80,43
+95915,57,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,1,$45000 to $54999,360,67,210,Yes,Yes,No,No,No,No,No,No,142,324
+95919,47,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,3,$10000 to $14999,240,72,350,Yes,NA,No,Yes,No,Yes,No,Yes,47,168
+95968,49,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Never married,2,$25000 to $34999,480,62,109,Yes,Yes,No,No,No,Yes,No,No,85,40
+95979,66,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,2,NA,120,69,155,Yes,NA,No,No,No,Yes,Yes,Yes,58,41
+95992,79,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Widowed,1,$10000 to $14999,420,63,178,Yes,Yes,No,Yes,No,Yes,Yes,Yes,97,106
+95996,42,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,6,$35000 to $44999,180,65,235,Yes,Yes,No,No,No,Yes,Yes,No,NA,NA
+96068,17,2,Mexican American,Citizen by birth or naturalization,NA,NA,7,$75000 to $99999,NA,66,165,Yes,Yes,NA,NA,NA,Yes,Yes,No,64,50
+96152,61,1,Mexican American,Not a citizen of the US,Less than 9th grade,Married,7,NA,15,65,180,No,NA,No,No,No,No,No,No,149,108
+96156,46,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,240,68,158,Yes,Yes,No,No,No,Yes,Yes,No,174,46
+96198,29,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Never married,2,$10000 to $14999,60,64,110,Yes,NA,No,No,No,No,No,No,76,43
+96222,40,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,3,$15000 to $19999,360,65,145,No,NA,No,No,No,No,No,No,70,56
+96279,54,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Living with partner,3,$20000 to $24999,720,61,176,No,NA,No,No,No,No,No,No,190,175
+96288,19,1,non-Hispanic white,Citizen by birth or naturalization,NA,NA,1,$0 to $4999,360,71,195,Yes,Yes,NA,NA,NA,Yes,Yes,Yes,144,138
+96306,80,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,2,$35000 to $44999,480,65,191,Yes,NA,No,No,No,No,Yes,No,90,125
+96317,68,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Married,3,$75000 to $99999,300,71,260,Yes,Yes,Yes,No,No,Yes,Yes,Yes,77,31
+96336,74,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Living with partner,2,NA,120,66,163,Yes,NA,No,No,No,Yes,Yes,Yes,70,92
+96357,69,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Married,2,$25000 to $34999,360,70,162,Yes,NA,No,No,No,No,No,No,204,101
+96374,16,2,Mexican American,Citizen by birth or naturalization,NA,NA,6,$65000 to $74999,NA,65,131,Yes,NA,NA,NA,NA,No,No,No,75,39
+96390,46,1,Mexican American,Citizen by birth or naturalization,Some college or AA degree,Married,4,$100000 and Over,360,75,220,Yes,Yes,No,No,No,Yes,Yes,Yes,227,129
+96417,33,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,5,$100000 and Over,180,63,120,Yes,Yes,No,No,No,Yes,Yes,Yes,89,49
+96443,24,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Never married,5,$20000 and Over,240,65,120,Yes,NA,No,No,No,Yes,No,No,91,54
+96508,46,2,Mexican American,Not a citizen of the US,9-11th grade,Married,5,$45000 to $54999,120,50,170,No,NA,No,No,No,Yes,No,No,118,74
+96519,33,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,7,$65000 to $74999,480,61,120,Yes,NA,No,No,No,Yes,Yes,Yes,79,39
+96525,80,1,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Married,4,$45000 to $54999,480,71,160,Yes,Yes,No,Yes,No,No,Yes,Yes,153,302
+96529,66,1,non-Hispanic Asian,Citizen by birth or naturalization,9-11th grade,Married,2,$45000 to $54999,360,64,143,Yes,Yes,No,No,No,No,Yes,Yes,161,173
+96540,66,1, Other Hispanic,Not a citizen of the US,Some college or AA degree,Married,5,NA,180,66,135,No,NA,No,No,No,Yes,Yes,No,123,243
+96558,29,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Never married,2,$20000 to $24999,120,68,225,Yes,NA,No,No,No,No,Yes,Yes,101,121
+96565,18,2,Mexican American,Citizen by birth or naturalization,NA,NA,6,$45000 to $54999,120,66,245,No,NA,NA,NA,NA,Yes,No,Yes,101,86
+96573,46,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,5,$100000 and Over,540,66,150,Yes,Yes,Yes,No,No,Yes,No,Yes,100,40
+96583,79,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Separated,2,Under $20000,240,69,169,Yes,Yes,No,No,No,No,No,No,92,97
+96590,27,2,Mexican American,Citizen by birth or naturalization,9-11th grade,Married,5,$15000 to $19999,300,62,210,Yes,Yes,No,No,No,Yes,Yes,Yes,118,48
+96609,36,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,7,NA,840,62,153,No,NA,No,No,No,Yes,No,No,82,55
+96610,34,2,non-Hispanic Asian,Not a citizen of the US,Some college or AA degree,Married,3,$15000 to $19999,240,62,122,Yes,Yes,Yes,No,No,Yes,No,Yes,NA,NA
+96628,32,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Never married,2,$15000 to $19999,180,67,230,Yes,Yes,No,No,No,Yes,No,No,100,132
+96629,46,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Living with partner,2,$45000 to $54999,60,68,190,Yes,Yes,No,No,No,No,Yes,Yes,162,73
+96642,67,1,Mexican American,Citizen by birth or naturalization,Less than 9th grade,Married,3,$15000 to $19999,180,NA,146,No,NA,No,Yes,No,Yes,Yes,Yes,135,141
+96672,32,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Never married,1,$75000 to $99999,180,67,170,Yes,Yes,No,No,No,Yes,Yes,Yes,153,202
+96687,80,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Widowed,3,NA,300,63,150,Yes,Yes,No,No,No,No,No,Don't Know,35,30
+96701,74,1, Other Hispanic,Citizen by birth or naturalization,9-11th grade,Married,2,$15000 to $19999,840,NA,NA,Yes,NA,No,No,No,No,Yes,Yes,104,101
+96745,52,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,1,$5000 to $9999,120,66,300,Yes,NA,No,No,No,Yes,Yes,Yes,119,60
+96752,54,2,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Separated,4,NA,180,63,230,Yes,Yes,Yes,No,No,Yes,Yes,Yes,112,100
+96793,54,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Married,7,$35000 to $44999,240,71,240,Yes,Yes,No,No,No,No,No,No,107,60
+96826,29,1,non-Hispanic Asian,Not a citizen of the US,High school graduate/GED or equivalent,Married,5,$65000 to $74999,120,71,186,Yes,NA,No,No,No,Yes,Yes,Yes,85,124
+96876,60,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,4,$20000 to $24999,240,67,175,Yes,NA,No,No,Yes,Yes,Yes,Yes,155,68
+96885,24,1,Mexican American,Not a citizen of the US,Less than 9th grade,Living with partner,4,$10000 to $14999,120,67,187,No,NA,No,No,No,Yes,Yes,Yes,95,57
+96899,21,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Never married,3,$55000 to $64999,300,72,179,Yes,NA,No,No,No,Yes,Yes,No,94,57
+96925,27,1, Other Hispanic,Citizen by birth or naturalization,9-11th grade,Never married,4,NA,300,68,240,Yes,NA,No,No,No,Yes,Yes,Yes,142,150
+96978,60,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,4,$45000 to $54999,300,72,182,Yes,NA,No,No,No,Yes,Yes,Yes,120,98
+96983,80,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,1,$20000 to $24999,300,66,180,Yes,Yes,Yes,No,No,Yes,Yes,Yes,101,197
+96990,30,1, Other Hispanic,Not a citizen of the US,Less than 9th grade,Married,5,$35000 to $44999,240,66,200,Yes,Yes,No,No,No,No,No,No,72,96
+96993,52,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$75000 to $99999,780,72,325,Yes,Yes,No,No,No,Yes,Yes,Yes,142,185
+97041,26,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,4,$100000 and Over,240,63,185,Yes,Don't Know,No,No,No,Yes,Yes,No,61,25
+97057,26,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Living with partner,2,$65000 to $74999,360,63,127,Yes,Yes,No,No,No,No,No,No,154,91
+97059,44,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,3,NA,420,74,270,Yes,Yes,No,No,No,Yes,No,No,95,63
+97063,51,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,3,$100000 and Over,600,68,120,Yes,Yes,No,No,No,No,No,No,157,78
+97097,53,1,Mexican American,Citizen by birth or naturalization,Less than 9th grade,Married,5,$65000 to $74999,960,66,265,No,NA,No,No,No,No,Yes,Yes,92,198
+97115,65,1,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,5,$55000 to $64999,240,67,185,Yes,Yes,No,No,No,Yes,Yes,Yes,47,75
+97120,80,2,non-Hispanic white,Citizen by birth or naturalization,Less than 9th grade,Widowed,3,$100000 and Over,480,60,153,Yes,Yes,No,No,No,Yes,Yes,Yes,75,95
+97133,65,2,non-Hispanic Asian,Not a citizen of the US,High school graduate/GED or equivalent,Married,7,$20000 and Over,30,62,142,Yes,NA,No,No,No,No,No,Yes,69,185
+97143,61,1,Mexican American,Citizen by birth or naturalization,9-11th grade,Married,3,$100000 and Over,480,66,210,Yes,Yes,No,Yes,No,Yes,Yes,Yes,81,101
+97194,69,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,NA,240,65,150,Yes,NA,No,No,No,Yes,Yes,Yes,79,108
+97221,78,1,Mexican American,Citizen by birth or naturalization,Less than 9th grade,Divorced,4,NA,0,66,160,Yes,NA,No,No,No,No,No,No,96,93
+97264,67,2,Mexican American,Not a citizen of the US,College graduate or above,Widowed,2,$55000 to $64999,240,59,183,Yes,NA,No,No,No,No,Yes,Yes,89,118
+97274,80,1,other non-Hispanic races,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,1,$20000 to $24999,300,69,152,Yes,Yes,No,No,No,Yes,Yes,Yes,162,140
+97320,65,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,$35000 to $44999,240,73,135,Yes,Yes,No,No,No,No,No,No,74,106
+97332,80,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,2,$25000 to $34999,660,63,125,Yes,Yes,Yes,No,No,No,No,No,110,102
+97357,62,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,3,$25000 to $34999,360,67,270,Yes,NA,No,No,Yes,Yes,Yes,Yes,128,73
+97359,17,2,non-Hispanic white,Citizen by birth or naturalization,NA,NA,4,$100000 and Over,NA,67,107,Yes,Yes,NA,NA,NA,No,No,No,NA,NA
+97367,61,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$45000 to $54999,720,67,200,Yes,Yes,No,No,No,No,No,No,89,74
+97379,38,1, Other Hispanic,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,6,$75000 to $99999,120,66,161,Yes,Yes,No,No,No,Yes,Yes,Yes,116,134
+97410,46,2,Mexican American,Not a citizen of the US,Less than 9th grade,Separated,4,NA,120,61,114,No,NA,No,No,No,No,No,No,88,49
+97415,54,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,$100000 and Over,480,65,149,Yes,Yes,No,No,No,Yes,Yes,Yes,58,50
+97483,19,1,non-Hispanic white,Citizen by birth or naturalization,NA,NA,2,$20000 to $24999,420,71,245,Yes,NA,NA,NA,NA,Yes,No,Yes,102,94
+97485,33,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,600,66,145,Yes,Yes,No,No,No,No,Yes,Yes,106,45
+97501,54,2, Other Hispanic,Citizen by birth or naturalization,Some college or AA degree,Married,4,$35000 to $44999,20,66,190,Yes,Yes,No,No,No,Yes,Yes,Yes,132,162
+97535,63,2, Other Hispanic,Citizen by birth or naturalization,Some college or AA degree,Married,2,$100000 and Over,300,62,156,Yes,NA,No,Yes,No,Yes,No,Yes,88,124
+97630,78,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$35000 to $44999,360,66,178,Yes,Yes,Yes,No,No,Yes,Yes,No,81,73
+97661,38,2,non-Hispanic black,Citizen by birth or naturalization,Less than 9th grade,Widowed,3,$35000 to $44999,300,62,200,Yes,NA,No,No,No,Yes,Yes,No,NA,NA
+97688,56,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,1,$35000 to $44999,420,63,230,No,NA,No,No,No,No,Yes,Yes,132,189
+97741,36,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Separated,1,$20000 to $24999,600,62,140,Yes,Yes,No,No,No,No,No,Yes,99,28
+97747,47,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Married,5,$100000 and Over,600,66,160,Yes,Yes,No,No,No,Yes,Yes,No,118,37
+97829,24,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,3,$10000 to $14999,300,72,400,Yes,NA,No,No,No,Yes,No,No,136,82
+97845,47,1,other non-Hispanic races,Citizen by birth or naturalization,Some college or AA degree,Married,5,$25000 to $34999,720,69,194,Yes,NA,Yes,No,Yes,No,No,No,123,117
+97878,49,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Widowed,2,$65000 to $74999,600,65,187,Yes,Yes,No,No,No,Yes,Yes,Yes,120,79
+97896,57,2,other non-Hispanic races,Citizen by birth or naturalization,9-11th grade,Married,4,$45000 to $54999,240,62,123,Yes,Yes,No,No,No,Yes,No,No,252,203
+97897,58,1,non-Hispanic Asian,Not a citizen of the US,High school graduate/GED or equivalent,Married,3,$20000 and Over,180,66,260,Yes,Yes,No,No,No,Yes,Yes,Yes,114,140
+97908,62,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$25000 to $34999,240,66,180,No,NA,No,No,No,No,No,No,105,54
+97944,63,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$55000 to $64999,360,63,134,Yes,Yes,Yes,No,No,No,No,No,115,71
+97959,80,1,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Married,2,$25000 to $34999,420,71,163,Yes,Yes,No,Yes,No,No,Yes,Yes,107,55
+97991,18,1,non-Hispanic Asian,Refused,NA,NA,7,$20000 and Over,120,66,143,No,NA,NA,NA,NA,Yes,Yes,Yes,61,64
+98024,61,2, Other Hispanic,Not a citizen of the US,Less than 9th grade,Married,5,NA,120,64,208,Yes,Yes,No,No,No,No,Yes,Yes,69,78
+98081,56,1,non-Hispanic black,Citizen by birth or naturalization,Less than 9th grade,Married,2,$10000 to $14999,360,65,152,Yes,NA,No,No,No,No,Yes,No,78,78
+98082,46,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Separated,3,$5000 to $9999,600,63,208,Yes,NA,No,No,No,Yes,Yes,Yes,169,205
+98103,37,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,1,$0 to $4999,120,69,165,No,NA,No,No,No,Yes,No,No,119,44
+98133,80,2,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Widowed,1,$35000 to $44999,360,57,130,Yes,Yes,No,No,No,No,No,No,58,61
+98135,42,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,3,$10000 to $14999,180,64,220,Yes,NA,No,No,No,Yes,Yes,Yes,114,238
+98147,29,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,3,$25000 to $34999,600,74,200,No,NA,No,No,No,Yes,No,No,119,75
+98162,70,2, Other Hispanic,Not a citizen of the US,Less than 9th grade,Never married,5,NA,9999,63,129,No,NA,No,No,No,Yes,Yes,Yes,119,98
+98168,55,2,Mexican American,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,420,69,150,Yes,Yes,No,No,No,Yes,Yes,Yes,141,67
+98175,69,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Married,2,$100000 and Over,600,59,172,Yes,Yes,No,No,No,No,Yes,Yes,89,41
+98225,26,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Living with partner,2,$55000 to $64999,600,72,246,Yes,Yes,No,No,No,Yes,Yes,No,97,63
+98242,53,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Divorced,3,$75000 to $99999,720,69,210,Yes,Yes,No,No,No,Yes,Yes,Yes,45,54
+98252,17,1,non-Hispanic Asian,Citizen by birth or naturalization,NA,NA,4,$20000 to $24999,NA,67,126,Yes,NA,NA,NA,NA,Yes,No,No,111,119
+98271,50,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,$100000 and Over,11,66,170,Yes,Yes,No,No,No,Yes,No,Yes,105,155
+98280,31,2,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,3,$100000 and Over,300,66,152,Yes,Yes,No,No,No,Yes,Yes,Yes,92,262
+98330,16,1,non-Hispanic black,Citizen by birth or naturalization,NA,NA,5,$100000 and Over,NA,69,200,Yes,Yes,NA,NA,NA,Yes,No,No,145,57
+98336,41,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Never married,3,$25000 to $34999,60,71,247,Yes,Yes,No,No,No,Yes,Yes,Yes,71,67
+98368,80,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,1,$20000 to $24999,480,72,195,Yes,NA,No,No,No,No,Yes,Yes,79,166
+98429,80,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Widowed,1,$25000 to $34999,300,64,150,No,NA,Yes,No,No,Yes,No,No,126,144
+98433,71,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,2,$25000 to $34999,300,71,240,Yes,Yes,No,No,No,No,Yes,Yes,95,99
+98437,32,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,6,$20000 to $24999,180,63,148,No,NA,No,No,No,No,No,No,87,65
+98470,38,2, Other Hispanic,Not a citizen of the US,Less than 9th grade,Separated,4,NA,20,NA,160,No,NA,No,No,No,Yes,Yes,Yes,NA,NA
+98501,68,2, Other Hispanic,Citizen by birth or naturalization,Some college or AA degree,Married,2,$25000 to $34999,30,62,160,Yes,NA,No,Yes,No,Yes,No,Yes,124,81
+98505,16,1,Mexican American,Citizen by birth or naturalization,NA,NA,7,$45000 to $54999,NA,69,215,Yes,Yes,NA,NA,NA,Yes,Yes,Yes,77,29
+98605,55,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,NA,180,66,300,Yes,Yes,No,Yes,Yes,No,Yes,Yes,140,130
+98622,59,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,3,$45000 to $54999,480,65,197,Yes,NA,No,No,Yes,No,Yes,Yes,188,60
+98707,63,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Separated,5,$100000 and Over,600,67,163,Yes,Yes,Yes,Yes,No,No,No,Yes,70,68
+98728,41,1,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,3,$20000 and Over,540,72,204,Yes,Yes,No,No,No,Yes,Yes,Yes,93,49
+98734,32,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,2,$35000 to $44999,240,73,235,Yes,Yes,No,No,No,Yes,No,No,NA,NA
+98742,80,2,Mexican American,Not a citizen of the US,Less than 9th grade,Widowed,5,$75000 to $99999,300,58,133,Yes,NA,No,No,No,Yes,Yes,Yes,60,84
+98743,61,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,360,65,168,Yes,Yes,No,No,No,Yes,Yes,No,82,69
+98759,80,1,Mexican American,Citizen by birth or naturalization,9-11th grade,Living with partner,4,NA,120,62,133,Yes,NA,No,No,No,Yes,Yes,Yes,101,48
+98793,46,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,540,61,117,Yes,Yes,No,No,No,No,No,Yes,115,81
+98804,39,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Widowed,5,$55000 to $64999,480,61,160,Yes,Yes,No,No,No,No,Yes,No,81,143
+98844,76,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Living with partner,3,$35000 to $44999,360,70,183,Yes,NA,No,Yes,No,Yes,No,Yes,61,80
+98853,73,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,1,$20000 to $24999,360,67,155,Yes,Yes,No,No,No,Yes,Yes,No,162,160
+98869,75,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,2,$15000 to $19999,240,72,185,Yes,NA,No,No,No,Yes,Yes,No,63,82
+98894,35,1,non-Hispanic Asian,Not a citizen of the US,Less than 9th grade,Married,7,$20000 and Over,600,74,182,Yes,NA,No,No,No,Yes,Yes,Yes,NA,433
+98940,64,2,Mexican American,Not a citizen of the US,9-11th grade,Married,4,$20000 and Over,120,60,140,No,NA,No,No,No,Yes,No,Yes,120,127
+98957,74,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$35000 to $44999,120,66,170,Yes,Yes,No,Yes,No,No,Yes,No,155,120
+98981,31,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,4,$15000 to $19999,180,68,120,No,NA,No,No,No,Yes,Yes,No,96,46
+98995,55,2, Other Hispanic,Citizen by birth or naturalization,College graduate or above,Married,6,$75000 to $99999,240,69,168,No,NA,No,No,No,Yes,Yes,Yes,197,89
+99001,37,1,other non-Hispanic races,Citizen by birth or naturalization,College graduate or above,Married,3,$100000 and Over,180,66,170,Yes,Yes,No,No,No,Yes,No,No,84,155
+99002,73,1,non-Hispanic Asian,Citizen by birth or naturalization,Less than 9th grade,Married,2,$20000 to $24999,90,67,190,Yes,NA,No,Yes,No,No,No,No,51,144
+99056,80,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Widowed,1,$15000 to $19999,360,62,135,Yes,NA,No,No,No,No,No,No,54,43
+99101,80,2,non-Hispanic Asian,Not a citizen of the US,Some college or AA degree,Widowed,6,$100000 and Over,540,62,154,Yes,NA,Yes,No,No,Yes,Yes,No,184,235
+99153,53,2,other non-Hispanic races,Citizen by birth or naturalization,Some college or AA degree,Married,2,$25000 to $34999,480,65,140,Yes,Yes,No,No,No,No,No,No,88,65
+99157,62,2,non-Hispanic Asian,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,3,$100000 and Over,420,61,114,Yes,Yes,No,No,No,Yes,Yes,Yes,124,89
+99197,28,2, Other Hispanic,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,5,$35000 to $44999,360,61,120,Yes,Yes,No,No,No,No,No,No,121,134
+99200,49,2,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Separated,2,$25000 to $34999,900,62,212,Yes,NA,No,No,No,Yes,Yes,Yes,NA,NA
+99230,61,2,other non-Hispanic races,Citizen by birth or naturalization,Some college or AA degree,Divorced,5,NA,240,65,NA,Yes,NA,No,No,No,Yes,Yes,Yes,150,47
+99231,37,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,5,$100000 and Over,300,64,140,Yes,Yes,No,No,No,No,No,No,87,152
+99309,80,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,6,$20000 and Over,300,64,142,Yes,Yes,No,No,No,Yes,No,Yes,127,41
+99338,37,2,Mexican American,Not a citizen of the US,Less than 9th grade,Married,5,$35000 to $44999,300,NA,158,Yes,NA,No,No,No,No,Yes,Yes,143,189
+99349,37,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,7,$75000 to $99999,300,78,405,Yes,Yes,No,No,No,Yes,No,No,128,99
+99394,20,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Never married,5,NA,120,69,152,Yes,NA,No,No,No,Yes,Yes,Yes,107,69
+99401,22,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Never married,5,$100000 and Over,240,70,140,Yes,Yes,No,No,No,No,Yes,No,99,41
+99417,18,1,non-Hispanic Asian,Not a citizen of the US,NA,NA,3,$10000 to $14999,540,70,154,No,NA,NA,NA,NA,No,Yes,Yes,87,54
+99444,52,1,other non-Hispanic races,Citizen by birth or naturalization,Some college or AA degree,Divorced,3,$65000 to $74999,300,66,217,Yes,NA,No,No,No,Yes,Yes,Yes,122,173
+99456,26,1,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,2,$25000 to $34999,240,69,160,No,NA,No,No,No,No,No,No,123,190
+99473,41,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,5,$75000 to $99999,180,71,185,Yes,Yes,No,No,No,No,No,No,118,84
+99477,63,1,Mexican American,Not a citizen of the US,Less than 9th grade,Married,3,$25000 to $34999,15,75,212,Yes,Yes,No,No,No,No,Yes,Yes,108,108
+99484,51,2, Other Hispanic,Citizen by birth or naturalization,9-11th grade,Never married,2,$10000 to $14999,300,64,240,Yes,NA,No,No,No,No,Yes,Yes,110,103
+99507,78,2,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Separated,4,$65000 to $74999,480,67,175,Yes,NA,Yes,No,No,No,Yes,No,NA,NA
+99531,55,2,Mexican American,Citizen by birth or naturalization,Some college or AA degree,Divorced,2,$15000 to $19999,180,64,152,Yes,NA,Yes,Don't Know,Yes,Yes,Yes,Yes,133,202
+99534,67,2,non-Hispanic Asian,Not a citizen of the US,High school graduate/GED or equivalent,Widowed,6,NA,660,63,190,No,NA,No,No,No,Yes,No,Yes,98,104
+99535,72,1,Mexican American,Citizen by birth or naturalization,9-11th grade,Divorced,1,$35000 to $44999,180,67,180,Yes,NA,No,No,No,Yes,Yes,Yes,68,350
+99564,76,2, Other Hispanic,Citizen by birth or naturalization,College graduate or above,Widowed,2,$20000 and Over,240,64,130,Yes,NA,No,No,No,Don't Know,Yes,Yes,270,84
+99565,80,1,non-Hispanic black,Citizen by birth or naturalization,Don't Know,Never married,2,Under $20000,600,70,220,Yes,NA,No,No,No,Yes,Yes,Yes,98,61
+99573,25,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,1,$25000 to $34999,90,70,165,Yes,Yes,No,No,No,No,No,No,113,61
+99602,64,2,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$55000 to $64999,360,63,220,Yes,Yes,No,No,No,No,No,Yes,69,134
+99604,80,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$35000 to $44999,240,67,140,Yes,Yes,Yes,No,No,No,No,No,123,107
+99616,39,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,7,$75000 to $99999,240,66,370,Yes,Yes,No,No,No,Yes,No,Yes,63,51
+99632,18,1,non-Hispanic white,Citizen by birth or naturalization,NA,NA,3,$100000 and Over,360,75,170,Yes,Yes,NA,NA,NA,No,No,No,104,51
+99636,53,2,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,4,$55000 to $64999,300,59,260,Yes,NA,No,No,No,Yes,Yes,Yes,112,137
+99641,23,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,7,$75000 to $99999,360,75,185,Yes,Yes,No,No,No,No,Yes,No,76,54
+99655,38,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,1,$0 to $4999,240,68,170,No,NA,No,No,No,Yes,Yes,Yes,119,37
+99662,65,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$35000 to $44999,240,64,217,Yes,Yes,No,No,No,No,Yes,No,102,264
+99665,46,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,NA,720,60,153,Yes,Yes,No,No,No,Yes,No,Yes,131,105
+99670,66,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,3,NA,360,70,217,Yes,Yes,No,No,No,Yes,Yes,No,93,124
+99682,80,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,2,$100000 and Over,480,72,180,Yes,Yes,Yes,No,No,No,Yes,Yes,87,49
+99695,37,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,4,$45000 to $54999,600,64,271,Yes,Yes,No,No,No,No,No,No,125,86
+99698,74,2,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Married,2,$75000 to $99999,120,64,205,Yes,Yes,No,No,No,Yes,Yes,Yes,87,106
+99724,56,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Divorced,1,$15000 to $19999,240,70,190,Yes,Yes,No,No,No,No,Yes,No,160,72
+99766,49,1,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,3,$100000 and Over,600,67,152,Yes,Yes,No,No,No,Yes,No,Yes,173,194
+99772,43,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$45000 to $54999,540,64,260,Yes,Yes,No,No,No,No,Yes,No,95,65
+99778,46,1,other non-Hispanic races,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,360,70,153,Yes,Yes,No,No,No,Yes,No,Yes,NA,NA
+99779,41,2,Mexican American,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,120,66,240,Yes,Yes,No,No,No,Yes,Yes,No,114,110
+99790,24,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Never married,6,$100000 and Over,480,71,178,Yes,Yes,No,No,No,Yes,Yes,Yes,129,95
+99792,69,1,other non-Hispanic races,Citizen by birth or naturalization,9-11th grade,Living with partner,2,$55000 to $64999,600,67,170,Yes,Yes,Yes,No,No,No,Yes,Yes,101,80
+99807,27,1,Mexican American,Citizen by birth or naturalization,Some college or AA degree,Never married,4,$100000 and Over,720,67,160,No,NA,No,No,No,No,No,No,102,184
+99840,74,2, Other Hispanic,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$100000 and Over,240,62,147,Yes,NA,No,No,No,No,Yes,Yes,218,138
+99851,71,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,$20000 and Over,240,60,127,Yes,NA,No,Yes,Yes,Yes,Yes,Yes,111,117
+99887,27,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,4,$100000 and Over,180,68,155,Yes,Yes,No,No,No,Yes,Yes,Yes,105,65
+99908,63,2,Mexican American,Citizen by birth or naturalization,9-11th grade,Married,2,$20000 to $24999,360,63,180,Yes,NA,No,No,No,No,Yes,Yes,131,73
+99935,42,2,Mexican American,Not a citizen of the US,9-11th grade,Living with partner,4,$75000 to $99999,240,68,206,Yes,Yes,No,No,No,Yes,Yes,Yes,126,52
+99942,35,2,Mexican American,Citizen by birth or naturalization,Some college or AA degree,Never married,5,$45000 to $54999,420,63,140,No,NA,No,No,No,Yes,No,No,127,108
+99989,21,2,Mexican American,Citizen by birth or naturalization,Some college or AA degree,Never married,4,$25000 to $34999,600,66,192,Yes,NA,No,No,No,Yes,No,Yes,92,84
+100029,20,2,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,5,$45000 to $54999,240,62,119,Yes,NA,No,No,No,Yes,Yes,Yes,89,66
+100041,47,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,360,72,190,Yes,Yes,No,No,No,Yes,Yes,Yes,117,102
+100051,66,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,3,$35000 to $44999,420,71,303,Yes,NA,Yes,No,Yes,No,Yes,Yes,87,107
+100061,55,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,2,$45000 to $54999,300,65,122,Yes,Yes,No,No,No,No,No,No,127,99
+100069,20,2,non-Hispanic Asian,Not a citizen of the US,Some college or AA degree,Never married,4,$20000 to $24999,480,57,116,Yes,Yes,No,No,No,No,No,No,NA,NA
+100112,57,2, Other Hispanic,Citizen by birth or naturalization,College graduate or above,Married,2,$100000 and Over,720,61,112,Yes,NA,No,No,No,No,No,Yes,159,68
+100122,65,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,4,$45000 to $54999,600,72,217,Yes,Yes,Yes,No,No,Yes,Yes,Yes,179,94
+100153,17,1,non-Hispanic black,Citizen by birth or naturalization,NA,NA,4,NA,NA,70,310,Yes,NA,NA,NA,NA,Yes,Yes,Yes,130,182
+100160,26,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,7,$65000 to $74999,360,60,168,Yes,NA,No,No,No,Yes,No,No,63,61
+100186,32,1,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,4,NA,360,71,230,Yes,Yes,No,No,No,Yes,No,Yes,133,121
+100190,32,2, Other Hispanic,Citizen by birth or naturalization,Some college or AA degree,Married,6,$75000 to $99999,600,67,210,Yes,NA,No,No,No,Yes,Yes,Yes,70,238
+100221,30,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,3,$35000 to $44999,120,69,153,No,NA,No,No,No,Yes,Yes,No,80,84
+100222,65,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Divorced,1,$10000 to $14999,240,64,199,Yes,NA,No,No,Yes,Yes,Yes,Yes,NA,403
+100230,59,2,Mexican American,Citizen by birth or naturalization,Less than 9th grade,Married,5,$65000 to $74999,360,58,160,No,NA,No,No,No,No,Yes,Yes,NA,NA
+100238,58,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$75000 to $99999,240,69,195,Yes,Yes,No,No,No,Yes,Yes,Yes,141,236
+100243,70,1,other non-Hispanic races,Citizen by birth or naturalization,Less than 9th grade,Married,2,$20000 to $24999,300,72,170,Yes,Yes,No,Yes,Yes,Yes,No,No,43,140
+100247,61,2, Other Hispanic,Citizen by birth or naturalization,College graduate or above,Married,2,$15000 to $19999,360,63,211,Yes,Yes,No,No,No,Yes,Yes,Yes,138,239
+100260,18,2,non-Hispanic white,Citizen by birth or naturalization,NA,NA,5,$25000 to $34999,300,60,176,Yes,NA,NA,NA,NA,Yes,Don't Know,Don't Know,75,31
+100261,80,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,6,$100000 and Over,300,79,179,Yes,Yes,No,No,No,Yes,Yes,Yes,92,40
+100264,26,1,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Living with partner,3,$20000 to $24999,360,65,115,Yes,NA,No,No,No,No,No,No,77,141
+100273,71,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,1,$20000 to $24999,480,70,125,Yes,NA,No,No,No,No,Yes,Yes,99,72
+100286,45,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,3,NA,60,67,228,Yes,NA,No,No,No,Yes,Yes,No,158,75
+100287,18,2,Mexican American,Citizen by birth or naturalization,NA,NA,3,$100000 and Over,300,62,122,Yes,Yes,NA,NA,NA,No,No,No,101,51
+100292,56,2,other non-Hispanic races,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,1,$5000 to $9999,480,61,277,Yes,Yes,No,No,No,Yes,Yes,No,104,107
+100295,36,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,4,NA,300,69,170,Yes,Yes,No,No,No,Yes,No,No,150,56
+100338,45,1,non-Hispanic white,Not a citizen of the US,College graduate or above,Married,6,$10000 to $14999,300,70,170,Yes,NA,No,No,No,Yes,No,No,88,258
+100348,49,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,$75000 to $99999,240,63,175,Yes,Yes,Yes,No,No,Yes,Yes,Yes,129,55
+100357,63,2,non-Hispanic Asian,Not a citizen of the US,Less than 9th grade,Widowed,5,$100000 and Over,240,60,160,Yes,Yes,No,No,No,Yes,Yes,Yes,90,56
+100377,47,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,600,65,153,Yes,Yes,No,No,No,Yes,Yes,Yes,174,113
+100382,45,1,other non-Hispanic races,Citizen by birth or naturalization,9-11th grade,Married,4,$25000 to $34999,480,68,300,Yes,NA,No,No,No,Yes,No,Yes,52,249
+100451,40,2,non-Hispanic Asian,Not a citizen of the US,Some college or AA degree,Married,4,$35000 to $44999,60,63,128,Yes,Yes,No,No,No,Yes,Yes,Yes,79,63
+100470,17,1,non-Hispanic black,Citizen by birth or naturalization,NA,NA,4,$45000 to $54999,NA,67,120,Yes,Yes,NA,NA,NA,No,No,No,66,31
+100544,61,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,NA,420,67,220,Yes,Yes,No,No,No,Yes,Yes,Yes,65,112
+100566,17,1,Mexican American,Citizen by birth or naturalization,NA,NA,4,$45000 to $54999,NA,68,209,Yes,NA,NA,NA,NA,Yes,Yes,Yes,92,51
+100568,46,1,Mexican American,Not a citizen of the US,Some college or AA degree,Married,4,$100000 and Over,60,67,210,Yes,NA,No,No,No,No,No,Yes,196,126
+100594,59,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,$15000 to $19999,120,68,110,Yes,NA,No,No,No,No,No,No,52,40
+100624,23,1,Mexican American,Not a citizen of the US,High school graduate/GED or equivalent,Living with partner,7,$15000 to $19999,60,69,195,Yes,NA,No,No,No,No,No,No,92,39
+100638,42,1,Mexican American,Citizen by birth or naturalization,9-11th grade,Never married,4,$20000 and Over,30,69,176,Yes,NA,No,No,No,Yes,Yes,No,142,154
+100706,66,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$25000 to $34999,360,69,220,Yes,Yes,No,No,No,Yes,Yes,Yes,95,27
+100710,33,1, Other Hispanic,Citizen by birth or naturalization,9-11th grade,Never married,3,$20000 and Over,240,73,240,Yes,NA,No,No,No,No,No,No,113,45
+100717,49,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Never married,2,$10000 to $14999,540,67,250,Yes,NA,No,No,No,No,No,No,91,94
+100723,80,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Widowed,1,$10000 to $14999,240,65,160,Yes,NA,No,Yes,No,Yes,Yes,Yes,79,117
+100725,67,2,non-Hispanic Asian,Not a citizen of the US,Less than 9th grade,Married,7,$100000 and Over,120,NA,150,Yes,NA,No,No,No,No,Yes,Yes,69,78
+100733,44,2,non-Hispanic Asian,Not a citizen of the US,Some college or AA degree,Married,6,$100000 and Over,120,63,NA,Yes,Yes,No,No,No,No,No,No,105,201
+100815,53,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,2,$20000 to $24999,540,59,125,Yes,NA,Yes,No,No,No,No,No,NA,NA
+100821,68,2, Other Hispanic,Citizen by birth or naturalization,Some college or AA degree,Married,2,$20000 to $24999,300,64,159,Yes,NA,Yes,No,No,Yes,Yes,Yes,62,189
+100827,45,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,4,$100000 and Over,480,66,175,Yes,Yes,No,No,No,No,No,No,NA,NA
+100880,46,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,4,$25000 to $34999,120,72,220,Yes,NA,No,No,No,No,Yes,Yes,138,188
+100882,18,1,Mexican American,Citizen by birth or naturalization,NA,NA,6,$100000 and Over,420,74,150,Yes,Don't Know,NA,NA,NA,No,No,No,114,61
+100935,20,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,5,$25000 to $34999,240,74,198,No,NA,No,No,No,Yes,Yes,No,69,46
+100949,51,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,5,$100000 and Over,300,64,200,Yes,Yes,No,No,No,No,Yes,Yes,97,78
+100986,50,2, Other Hispanic,Not a citizen of the US,Less than 9th grade,Married,4,$25000 to $34999,240,64,160,Yes,NA,No,No,No,No,No,Yes,130,94
+101111,22,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,4,NA,180,75,270,Yes,Yes,No,No,No,Yes,No,No,107,86
+101115,36,2,non-Hispanic black,Not a citizen of the US,Some college or AA degree,Separated,3,$10000 to $14999,600,67,238,No,NA,No,No,No,No,Yes,Yes,98,39
+101119,48,2,Mexican American,Don't Know,Less than 9th grade,Living with partner,4,$5000 to $9999,300,60,165,No,NA,No,No,No,No,No,No,NA,NA
+101123,59,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$35000 to $44999,420,68,110,Yes,Yes,No,No,No,No,No,No,118,55
+101130,19,2, Other Hispanic,Citizen by birth or naturalization,NA,NA,3,$55000 to $64999,420,64,120,No,NA,NA,NA,NA,Yes,No,No,60,60
+101141,54,1,Mexican American,Not a citizen of the US,High school graduate/GED or equivalent,Married,4,$0 to $4999,480,70,245,No,NA,No,No,No,Yes,Yes,Yes,164,98
+101148,80,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Widowed,2,NA,540,62,100,Yes,Yes,No,No,No,No,Yes,No,NA,NA
+101176,80,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,1,NA,360,63,130,Yes,NA,No,No,No,Yes,Yes,Yes,108,47
+101220,35,2,non-Hispanic Asian,Citizen by birth or naturalization,Some college or AA degree,Married,4,NA,540,61,165,Yes,Yes,No,No,No,Yes,Yes,Yes,100,67
+101226,44,1,non-Hispanic Asian,Not a citizen of the US,9-11th grade,Married,3,$20000 to $24999,120,64,183,Yes,Yes,No,No,No,No,Yes,Yes,135,227
+101254,29,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Living with partner,3,$75000 to $99999,120,65,117,No,NA,No,No,No,Yes,No,No,100,69
+101278,44,1,non-Hispanic Asian,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,5,$35000 to $44999,480,72,212,Yes,NA,No,No,No,Yes,No,Yes,167,136
+101343,80,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,2,$100000 and Over,480,70,175,Yes,Yes,Yes,Yes,No,No,No,Yes,161,104
+101352,16,1,non-Hispanic white,Citizen by birth or naturalization,NA,NA,7,$35000 to $44999,NA,65,135,Yes,NA,NA,NA,NA,Yes,No,No,65,80
+101357,72,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Widowed,1,NA,360,65,178,Yes,NA,No,No,No,No,Yes,Yes,109,107
+101360,46,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Living with partner,7,$75000 to $99999,60,68,175,No,NA,No,No,No,No,No,No,121,184
+101362,74,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,1,$25000 to $34999,360,67,185,Yes,NA,No,No,No,No,No,No,112,92
+101372,29,2,non-Hispanic Asian,Not a citizen of the US,High school graduate/GED or equivalent,Married,5,$65000 to $74999,60,63,120,Yes,NA,No,No,No,Yes,Yes,Yes,54,67
+101411,59,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Never married,2,NA,600,64,224,Yes,NA,No,Yes,Yes,Yes,Yes,Yes,154,97
+101416,44,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,6,$75000 to $99999,360,72,160,Yes,Yes,No,No,No,No,No,Yes,103,91
+101475,50,2,Mexican American,Not a citizen of the US,Less than 9th grade,Married,3,NA,60,NA,300,No,NA,No,No,No,No,Yes,Yes,NA,876
+101480,64,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,$100000 and Over,240,70,178,Yes,Yes,No,No,No,Yes,No,Yes,129,99
+101485,16,2,Mexican American,Citizen by birth or naturalization,NA,NA,5,$45000 to $54999,NA,64,132,Yes,Yes,NA,NA,NA,No,No,No,93,64
+101520,52,1,Mexican American,Not a citizen of the US,High school graduate/GED or equivalent,Married,5,$20000 and Over,180,66,210,No,NA,No,No,No,No,No,No,145,266
+101547,42,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,3,$35000 to $44999,540,64,270,Yes,NA,No,No,No,No,No,No,112,212
+101580,61,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Married,3,$100000 and Over,300,67,165,Yes,Yes,No,No,Yes,Yes,Yes,Yes,118,137
+101606,58,1, Other Hispanic,Not a citizen of the US,Less than 9th grade,Married,5,$10000 to $14999,180,68,170,No,NA,No,No,No,No,No,Yes,105,41
+101627,76,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,$100000 and Over,480,62,167,Yes,Yes,No,No,No,Yes,Yes,Yes,142,32
+101631,73,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$45000 to $54999,300,55,120,Yes,Yes,No,No,No,Yes,Yes,Yes,127,77
+101649,40,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Divorced,4,$75000 to $99999,300,66,160,Yes,Yes,No,No,No,Yes,No,No,152,91
+101658,30,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,4,$65000 to $74999,480,70,198,Yes,Yes,No,No,No,No,No,No,88,78
+101668,38,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,6,$55000 to $64999,540,69,162,Yes,NA,No,No,No,No,No,No,85,219
+101677,25,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Never married,2,$35000 to $44999,360,71,230,Yes,Yes,No,No,No,Yes,No,Yes,154,78
+101694,64,1, Other Hispanic,Citizen by birth or naturalization,Less than 9th grade,Married,6,$35000 to $44999,150,65,156,Yes,Yes,No,Yes,No,Yes,Yes,Yes,72,126
+101707,79,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Widowed,1,$15000 to $19999,240,62,189,Yes,Yes,No,No,Yes,Yes,Yes,Yes,95,78
+101714,36,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Living with partner,5,$100000 and Over,180,73,280,Yes,Yes,Yes,No,No,Yes,Yes,Yes,112,341
+101722,72,1,Mexican American,Citizen by birth or naturalization,Less than 9th grade,Separated,6,$15000 to $19999,120,66,178,Yes,NA,No,Don't Know,No,Yes,Yes,Yes,101,30
+101737,57,1,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,2,$20000 to $24999,360,66,150,Yes,NA,No,No,Yes,No,No,No,143,90
+101754,56,1, Other Hispanic,Not a citizen of the US,Less than 9th grade,Married,5,NA,300,NA,205,Yes,Yes,No,No,No,No,Yes,Yes,112,126
+101763,54,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$20000 to $24999,720,62,156,Yes,NA,No,Yes,Yes,Yes,No,No,100,133
+101768,24,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Never married,5,NA,720,67,143,Yes,Yes,No,No,No,No,No,No,80,48
+101787,30,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Never married,2,$65000 to $74999,120,70,240,No,NA,No,No,No,Yes,Yes,Yes,54,121
+101793,57,1, Other Hispanic,Citizen by birth or naturalization,College graduate or above,Married,2,$100000 and Over,720,68,186,Yes,Yes,No,No,No,Yes,Yes,Yes,158,71
+101799,28,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Never married,1,$100000 and Over,480,66,108,Yes,Yes,No,No,No,No,No,No,92,34
+101824,64,2,non-Hispanic black,Citizen by birth or naturalization,Less than 9th grade,Widowed,6,$35000 to $44999,480,61,170,Yes,NA,No,No,No,Yes,Yes,Yes,NA,NA
+101828,32,2,non-Hispanic Asian,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,6,$55000 to $64999,360,63,158,Yes,NA,No,No,No,Yes,Yes,Yes,82,56
+101842,30,2,non-Hispanic Asian,Citizen by birth or naturalization,9-11th grade,Married,5,$25000 to $34999,120,64,155,Yes,NA,No,No,No,No,No,No,100,62
+101845,38,2,other non-Hispanic races,Citizen by birth or naturalization,9-11th grade,Married,4,$25000 to $34999,900,64,198,Yes,NA,No,No,No,No,Yes,Yes,161,142
+101865,53,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Divorced,1,$15000 to $19999,240,71,180,Yes,NA,Yes,No,No,Yes,No,No,78,126
+101883,76,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$65000 to $74999,420,68,173,Yes,NA,Yes,No,No,Yes,Yes,Yes,97,90
+101888,60,1, Other Hispanic,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$55000 to $64999,240,66,185,Yes,Yes,No,No,No,Yes,Yes,Yes,155,112
+101903,33,2,Mexican American,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,4,$20000 and Over,240,62,155,Yes,Yes,No,No,No,Yes,Yes,Yes,126,89
+101936,80,2,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Married,3,$55000 to $64999,360,63,238,Yes,Yes,No,No,No,Yes,Yes,Yes,57,60
+101937,24,1,other non-Hispanic races,Citizen by birth or naturalization,Some college or AA degree,Living with partner,2,$55000 to $64999,600,72,200,Yes,NA,No,No,No,No,No,No,83,100
+102015,20,2,non-Hispanic white,Citizen by birth or naturalization,High school graduate/GED or equivalent,Living with partner,4,$25000 to $34999,300,63,137,Yes,NA,No,No,No,No,No,No,46,67
+102060,80,2,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Married,2,$25000 to $34999,480,61,130,Yes,NA,No,No,No,No,Yes,Yes,71,66
+102068,65,2,non-Hispanic Asian,Citizen by birth or naturalization,9-11th grade,Married,2,$100000 and Over,360,61,NA,Yes,Yes,No,No,No,No,Yes,Yes,120,60
+102082,58,1,other non-Hispanic races,Citizen by birth or naturalization,Some college or AA degree,Married,2,$25000 to $34999,300,76,395,Yes,Yes,No,No,No,No,Yes,No,79,137
+102093,21,2, Other Hispanic,Not a citizen of the US,9-11th grade,Married,5,$0 to $4999,30,62,120,Yes,Yes,No,No,No,Yes,No,No,101,59
+102121,53,2,Mexican American,Not a citizen of the US,9-11th grade,Married,2,NA,120,64,160,Yes,NA,No,No,No,No,Yes,Yes,111,181
+102133,19,2,non-Hispanic white,Citizen by birth or naturalization,NA,NA,2,$10000 to $14999,240,64,140,No,NA,NA,NA,NA,Yes,Yes,Yes,66,44
+102137,67,1,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,4,$55000 to $64999,120,69,180,Yes,Yes,No,No,No,Yes,Yes,Yes,NA,NA
+102153,77,2,Mexican American,Citizen by birth or naturalization,Some college or AA degree,Divorced,1,$25000 to $34999,120,63,173,Yes,Yes,No,No,No,Yes,Yes,Yes,104,126
+102181,43,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Divorced,4,$25000 to $34999,360,64,164,Yes,NA,No,No,No,Yes,No,Yes,87,130
+102191,58,1,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Married,2,$55000 to $64999,600,70,240,Yes,Yes,No,No,No,No,No,No,90,121
+102215,48,1,non-Hispanic white,Citizen by birth or naturalization,9-11th grade,Married,2,$100000 and Over,600,72,224,Yes,Yes,No,No,No,Yes,No,Yes,176,225
+102217,27,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Never married,3,$75000 to $99999,660,72,214,Yes,Yes,No,No,No,Yes,Yes,Yes,79,82
+102248,48,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,$65000 to $74999,120,66,160,Yes,Yes,No,No,No,Yes,Yes,Yes,170,119
+102256,40,1, Other Hispanic,Not a citizen of the US,Less than 9th grade,Married,5,$0 to $4999,120,71,190,No,NA,No,No,No,No,Yes,Yes,140,111
+102271,79,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,2,$10000 to $14999,180,69,162,Yes,NA,Yes,Yes,Yes,No,No,No,75,81
+102278,36,2,Mexican American,Not a citizen of the US,Some college or AA degree,Living with partner,2,$45000 to $54999,120,67,248,Yes,NA,No,No,No,Yes,No,Yes,NA,NA
+102288,32,1,non-Hispanic Asian,Not a citizen of the US,College graduate or above,Married,3,NA,540,70,226,Yes,Yes,No,No,No,Yes,Yes,Yes,101,143
+102396,45,1,other non-Hispanic races,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,1,$10000 to $14999,300,71,225,Yes,NA,No,No,No,Yes,No,No,103,87
+102440,16,2,non-Hispanic Asian,Citizen by birth or naturalization,NA,NA,4,$100000 and Over,NA,62,107,Yes,Yes,NA,NA,NA,Yes,No,No,62,67
+102443,56,2,non-Hispanic white,Citizen by birth or naturalization,College graduate or above,Divorced,3,$35000 to $44999,300,61,100,Yes,Yes,No,No,No,No,No,No,56,47
+102455,66,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$55000 to $64999,240,72,195,Yes,Yes,No,No,No,No,No,No,187,101
+102457,58,1,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Divorced,2,$35000 to $44999,300,69,159,No,NA,No,No,No,No,No,No,144,134
+102465,79,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,2,$35000 to $44999,300,65,150,Yes,Yes,No,No,No,Yes,Yes,Yes,88,89
+102490,71,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,2,$35000 to $44999,240,61,130,Yes,Yes,No,No,No,Yes,Yes,Yes,138,134
+102508,68,2,non-Hispanic black,Citizen by birth or naturalization,9-11th grade,Living with partner,2,NA,480,69,184,Yes,NA,No,No,No,No,Yes,Yes,106,128
+102554,66,1,other non-Hispanic races,Citizen by birth or naturalization,High school graduate/GED or equivalent,Divorced,4,$25000 to $34999,20,68,134,Yes,NA,No,Yes,Yes,No,No,No,NA,NA
+102559,53,1,Mexican American,Not a citizen of the US,Less than 9th grade,Married,7,NA,120,65,162,No,NA,No,No,No,Yes,Yes,Yes,107,206
+102578,70,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Separated,1,NA,300,68,203,Yes,NA,No,No,No,Yes,No,Yes,NA,NA
+102585,80,2,Mexican American,Citizen by birth or naturalization,Less than 9th grade,Widowed,1,$5000 to $9999,300,63,160,Yes,NA,No,No,No,Yes,Yes,Yes,88,271
+102605,57,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Married,2,$25000 to $34999,480,66,218,Yes,NA,No,No,Yes,No,No,No,174,91
+102673,47,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,2,$45000 to $54999,360,63,105,Yes,Yes,No,No,No,Yes,No,No,82,23
+102688,53,2,non-Hispanic white,Citizen by birth or naturalization,Some college or AA degree,Married,2,$10000 to $14999,300,67,177,Yes,NA,No,No,No,No,No,Yes,124,159
+102697,75,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,2,$100000 and Over,600,70,175,Yes,Yes,No,No,Yes,Yes,Yes,Yes,111,33
+102706,40,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,5,$100000 and Over,300,70,175,Yes,Yes,No,No,No,No,Yes,Yes,154,224
+102713,23,2,non-Hispanic black,Citizen by birth or naturalization,Some college or AA degree,Living with partner,4,$35000 to $44999,300,67,150,No,NA,No,No,No,Yes,No,Yes,59,56
+102721,53,2, Other Hispanic,Citizen by birth or naturalization,9-11th grade,Married,2,$15000 to $19999,60,NA,154,Yes,NA,No,No,No,Yes,Yes,Yes,148,75
+102722,62,2,Mexican American,Citizen by birth or naturalization,Less than 9th grade,Separated,6,$15000 to $19999,180,NA,157,Yes,NA,No,No,No,No,Yes,Yes,83,134
+102726,62,1,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Married,7,$35000 to $44999,420,71,207,No,NA,No,No,No,No,Yes,Yes,114,92
+102733,61,1,non-Hispanic black,Citizen by birth or naturalization,Less than 9th grade,Living with partner,2,NA,720,77,220,No,NA,No,No,No,Yes,Yes,Yes,146,217
+102802,25,1,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Never married,3,$100000 and Over,720,70,150,Yes,Yes,No,No,No,Yes,No,Yes,117,39
+102826,58,2,Mexican American,Citizen by birth or naturalization,Less than 9th grade,Divorced,7,NA,180,53,140,Yes,Yes,Yes,No,No,No,No,No,131,78
+102836,40,1,Mexican American,Not a citizen of the US,9-11th grade,Married,7,$45000 to $54999,360,66,203,Yes,Yes,No,No,No,No,No,No,97,55
+102838,41,1,other non-Hispanic races,Citizen by birth or naturalization,Some college or AA degree,Divorced,2,$45000 to $54999,30,72,222,Yes,Yes,No,No,No,No,Yes,Yes,78,99
+102868,70,2,non-Hispanic Asian,Not a citizen of the US,Some college or AA degree,Married,5,$45000 to $54999,180,62,120,Yes,NA,No,No,No,No,No,No,135,111
+102871,80,2,non-Hispanic Asian,Not a citizen of the US,9-11th grade,Married,5,$100000 and Over,600,59,105,Yes,NA,No,No,No,No,No,No,93,64
+102880,51,2,non-Hispanic Asian,Citizen by birth or naturalization,College graduate or above,Married,3,$100000 and Over,480,60,130,Yes,Yes,No,No,No,No,No,Yes,151,101
+102903,20,2,non-Hispanic black,Citizen by birth or naturalization,High school graduate/GED or equivalent,Never married,3,$20000 and Over,420,64,157,Yes,NA,No,No,No,Yes,Yes,Yes,NA,NA
+102947,75,1,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Divorced,1,$45000 to $54999,240,69,165,Yes,Yes,Yes,No,No,Yes,Yes,Yes,66,35
+102954,41,2,non-Hispanic black,Citizen by birth or naturalization,College graduate or above,Never married,7,$65000 to $74999,600,66,150,Yes,NA,No,No,No,Yes,Yes,Yes,108,49
+95712,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+97549,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,82,33
+97755,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,94,78
+102157,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,118,164
+98465,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,76,60
+95009,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,96,64
+94870,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,96,37
+96401,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+93917,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,80,99
+97720,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,94,91
+100050,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,98,63
+102114,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,85,63
+99972,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+94036,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,44,168
+98499,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,50,38
+94626,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,89,65
+96647,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,81,27
+97135,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,98,13
+100974,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,86,49
+101451,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,82,32
+97925,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,124,113
+99591,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,72,40
+94186,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,80,25
+100048,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,76,97
+99875,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,93,66
+99911,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,113,85
+102145,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,107,92
+93864,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,73,159
+96670,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,91,95
+101943,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,68,138
+100284,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,77,33
+100523,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,67,27
+97448,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,66,31
+100255,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,111,107
+102915,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,139,25
+94230,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,51,78
+96559,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,64,41
+100944,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,106,79
+95642,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,87,194
+95895,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+98340,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,100,43
+94447,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,109,40
+102143,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,96,118
+99124,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,102,246
+101131,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,69,84
+96518,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+102274,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,53,41
+101561,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,64,21
+96369,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,93,56
+100804,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,72,29

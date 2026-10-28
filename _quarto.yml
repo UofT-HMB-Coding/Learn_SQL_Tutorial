@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: SQL Tutorial
+  navbar:
+    left:
+    - href: LearnSQL.qmd
+      text: LearnSQL
+    - href: SQL_Exercise.qmd
+      text: Extra MCQ Exercises
+format:
+  html:
+    theme: cosmo
+    css:
+    - styles.css
+    - webex.css
+    toc: true
+    include-after-body: webex.js
